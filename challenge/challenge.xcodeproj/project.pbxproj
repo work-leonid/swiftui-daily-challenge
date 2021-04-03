@@ -12,6 +12,7 @@
 		B376DC0D26172B080064AF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B376DC0C26172B080064AF23 /* Assets.xcassets */; };
 		B376DC1026172B080064AF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B376DC0F26172B080064AF23 /* Preview Assets.xcassets */; };
 		B376DC1926172B5D0064AF23 /* BillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376DC1826172B5D0064AF23 /* BillsApp.swift */; };
+		B376DC1C2618635B0064AF23 /* BeautyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376DC1B2618635B0064AF23 /* BeautyShop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B376DC0F26172B080064AF23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B376DC1126172B080064AF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B376DC1826172B5D0064AF23 /* BillsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsApp.swift; sourceTree = "<group>"; };
+		B376DC1B2618635B0064AF23 /* BeautyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyShop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B376DC0826172B070064AF23 /* challengeApp.swift */,
 				B376DC0A26172B070064AF23 /* ContentView.swift */,
 				B376DC1826172B5D0064AF23 /* BillsApp.swift */,
+				B376DC1B2618635B0064AF23 /* BeautyShop.swift */,
 				B376DC0C26172B080064AF23 /* Assets.xcassets */,
 				B376DC1126172B080064AF23 /* Info.plist */,
 				B376DC0E26172B080064AF23 /* Preview Content */,
@@ -144,6 +147,7 @@
 				B376DC1926172B5D0064AF23 /* BillsApp.swift in Sources */,
 				B376DC0B26172B070064AF23 /* ContentView.swift in Sources */,
 				B376DC0926172B070064AF23 /* challengeApp.swift in Sources */,
+				B376DC1C2618635B0064AF23 /* BeautyShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

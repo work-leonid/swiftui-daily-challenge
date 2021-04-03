@@ -9,22 +9,25 @@ import SwiftUI
 
 struct BillsApp: View {
     var body: some View {
-        NavigationView {
-            ScrollView(.vertical, showsIndicators: false) {
-                BillsAppHeader()
+        
+        ScrollView(.vertical, showsIndicators: false) {
+            BillsAppHeader()
+            
+            BillsAppCard()
+            
+            VStack(spacing: 20) {
+                BillsAppTitleTodayPaymentsView()
                 
-                BillsAppCard()
-                
-                VStack(spacing: 40) {
-                    BillsAppTitleTodayPaymentsView()
-                    
+                ForEach(0..<5) { _ in
                     PaymentRowView()
                 }
                 
-                
             }
-            .padding(.horizontal)
+            
+            
         }
+        .padding(.horizontal)
+        
     }
 }
 
