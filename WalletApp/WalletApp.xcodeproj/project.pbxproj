@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3582CD8261A0D6E00AE309B /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582CD7261A0D6E00AE309B /* CardListView.swift */; };
+		B3582CDB261A0D7900AE309B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582CDA261A0D7900AE309B /* Card.swift */; };
+		B3582CDE261A0ECD00AE309B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582CDD261A0ECD00AE309B /* MockData.swift */; };
+		B3582CE2261A408200AE309B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582CE1261A408200AE309B /* CardView.swift */; };
+		B3582CE6261A457700AE309B /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582CE5261A457700AE309B /* Colors+Extension.swift */; };
+		B3582D1B261B084400AE309B /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582D1A261B084400AE309B /* BalanceView.swift */; };
+		B3582D1E261B09E700AE309B /* HorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3582D1D261B09E700AE309B /* HorizontalProgressView.swift */; };
 		B3D9B9DE261A0AD900CCB0F2 /* WalletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9B9DD261A0AD900CCB0F2 /* WalletAppApp.swift */; };
 		B3D9B9E0261A0AD900CCB0F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9B9DF261A0AD900CCB0F2 /* ContentView.swift */; };
 		B3D9B9E2261A0ADB00CCB0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D9B9E1261A0ADB00CCB0F2 /* Assets.xcassets */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3582CD7261A0D6E00AE309B /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		B3582CDA261A0D7900AE309B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B3582CDD261A0ECD00AE309B /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		B3582CE1261A408200AE309B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B3582CE5261A457700AE309B /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		B3582D1A261B084400AE309B /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		B3582D1D261B09E700AE309B /* HorizontalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressView.swift; sourceTree = "<group>"; };
 		B3D9B9DA261A0AD900CCB0F2 /* WalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D9B9DD261A0AD900CCB0F2 /* WalletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAppApp.swift; sourceTree = "<group>"; };
 		B3D9B9DF261A0AD900CCB0F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +70,13 @@
 			children = (
 				B3D9B9DD261A0AD900CCB0F2 /* WalletAppApp.swift */,
 				B3D9B9DF261A0AD900CCB0F2 /* ContentView.swift */,
+				B3582D1D261B09E700AE309B /* HorizontalProgressView.swift */,
+				B3582D1A261B084400AE309B /* BalanceView.swift */,
+				B3582CD7261A0D6E00AE309B /* CardListView.swift */,
+				B3582CE1261A408200AE309B /* CardView.swift */,
+				B3582CE5261A457700AE309B /* Colors+Extension.swift */,
+				B3582CDA261A0D7900AE309B /* Card.swift */,
+				B3582CDD261A0ECD00AE309B /* MockData.swift */,
 				B3D9B9ED261A0B2400CCB0F2 /* HeaderView.swift */,
 				B3D9B9E1261A0ADB00CCB0F2 /* Assets.xcassets */,
 				B3D9B9E6261A0ADB00CCB0F2 /* Info.plist */,
@@ -142,8 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D9B9E0261A0AD900CCB0F2 /* ContentView.swift in Sources */,
+				B3582CE2261A408200AE309B /* CardView.swift in Sources */,
+				B3582CDE261A0ECD00AE309B /* MockData.swift in Sources */,
+				B3582CE6261A457700AE309B /* Colors+Extension.swift in Sources */,
 				B3D9B9EE261A0B2400CCB0F2 /* HeaderView.swift in Sources */,
+				B3582D1E261B09E700AE309B /* HorizontalProgressView.swift in Sources */,
+				B3582CD8261A0D6E00AE309B /* CardListView.swift in Sources */,
+				B3582D1B261B084400AE309B /* BalanceView.swift in Sources */,
 				B3D9B9DE261A0AD900CCB0F2 /* WalletAppApp.swift in Sources */,
+				B3582CDB261A0D7900AE309B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
